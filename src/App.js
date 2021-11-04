@@ -1,13 +1,15 @@
-
-import './App.css';
-import Cart from './components/Cart/Cart';
-import Shop from './components/Shop/Shop';
+import "./App.css";
+import Counter from "./components/Counter";
+import CounterTwo from "./components/CounterTwo"
+import Users from "./components/Users";
 
 function App() {
   return (
     <div className="App">
-      <Cart></Cart>
-      <Shop></Shop>
+      <Counter />
+      <CounterTwo />
+      <h1>USers Synchronously</h1>
+      <Users />
     </div>
   );
 }
